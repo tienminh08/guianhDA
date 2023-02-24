@@ -1,0 +1,10 @@
+<form [formGroup]="Fromedit" (submit)="edit()">
+  <p>Id</p>
+  <input   formControlName="id" ><br>
+  <p>Name</p>
+  <input  formControlName="name" ><br>
+  <p>Img</p>
+  <input   formControlName="img" ><br>
+
+  <button type="submit" class="btn btn-primary" (click)="edit()"  >Submit</button>
+</form>
